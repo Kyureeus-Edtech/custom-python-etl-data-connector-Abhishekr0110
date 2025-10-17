@@ -1,5 +1,7 @@
 # SSL Labs ETL Connector (Assignment 2 - Extended to 3 endpoints)
 
+Done by Abhishek 3122225001002 CSE A
+
 ## Overview
 This connector extracts data from Qualys SSL Labs API endpoints (`/info`, `/analyze`, `/getEndpointData`) and loads raw JSON responses into MongoDB for auditing and processing.
 
