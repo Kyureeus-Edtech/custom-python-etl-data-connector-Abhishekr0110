@@ -17,3 +17,16 @@ This connector extracts data from Qualys SSL Labs API endpoints (`/info`, `/anal
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
+
+
+Outputs:
+![alt text](<Screenshot 2025-10-17 at 1.54.07 PM.png>)
+
+
+In mongo db shell:
+ssllabs_info_raw:
+![alt text](<Screenshot 2025-10-17 at 1.55.36 PM.png>)
+ssllabs_analyze_raw:
+![alt text](<Screenshot 2025-10-17 at 1.55.52 PM.png>)
+ssllabs_endpoint_raw:
+![alt text](<Screenshot 2025-10-17 at 1.56.13 PM.png>)
